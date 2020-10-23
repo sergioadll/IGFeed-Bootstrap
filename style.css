@@ -1,0 +1,19 @@
+
+.card{
+height: 30rem;
+width: 25rem;
+}
+.card-title {
+    height: 5%;
+}
+.card-content {
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+.image{
+    max-height: 50%;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+    object-fit: cover;
+}
