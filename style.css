@@ -17,3 +17,9 @@ width: 25rem;
     background-color: rgb(26, 25, 25);
     object-fit: cover;
 }
+.miniature{
+    max-height: 15rem;
+    width: 23rem;
+    background-color: rgb(26, 25, 25);
+    object-fit: cover;
+}

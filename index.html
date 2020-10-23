@@ -62,15 +62,16 @@
         <!--CAMBIAAR COLOR DE BOTONES--> 
         <ul class="nav nav-pills mb-3 border-0 justify-content-center" id="myTab" role="tablist">
             <li class="nav-item " role="presentation">
-                <a class="nav-link active " id="home-tab" data-toggle="tab" href="#photos" role="tab" aria-controls="home" aria-selected="true">Photos</a>
+                <a class="nav-link active " id="home-tab" data-toggle="tab" href="#posts" role="tab" aria-controls="home" aria-selected="true">Posts</a>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#posts" role="tab" aria-controls="profile" aria-selected="false">Posts</a>
+                <a class="nav-link" id="media-tab" data-toggle="tab" href="#media" role="tab" aria-controls="media" aria-selected="false">All Media</a>
             </li>
         </ul>
         <!--Tab's Content-->               
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active  d-flex justify-content-center" id="photos" role="tabpanel" aria-labelledby="home-tab">
+            <!--Posts Content-->
+            <div class="tab-pane fade show active" id="posts" role="tabpanel" aria-labelledby="home-tab">
                 <div class="row row-cols-1 row-cols-md-3 mx-auto">                   
                     <!--Card Forest-->
                     <div class="col mb-4">
@@ -225,9 +226,22 @@
 
                 </div>
             </div>
-            <div class="tab-pane fade" id="posts" role="tabpanel" aria-labelledby="profile-tab">
-
-sdfsdf
+            <!--All Media Content-->
+            <div class="tab-pane fade" id="media" role="tabpanel" aria-labelledby="media-tab">
+            <div class="d-flex flex-wrap justify-content-center">   
+                <img class="miniature" src="https://images.pexels.com/photos/5580663/pexels-photo-5580663.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Picture">            
+                <video class="miniature" height=inherit autoplay loop>
+                    <source src="https://player.vimeo.com/external/284652268.sd.mp4?s=0bf23f0d69280b20e39fb2dd5501a5b0d4612a77&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+                    <div class="miniature">Your browser does not support the video tag.</div>
+                </video>                                 
+                <img class="miniature" src="https://images.pexels.com/photos/3671311/pexels-photo-3671311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Picture">            
+                <video class="miniature" height=inherit autoplay loop>
+                    <source src="https://player.vimeo.com/external/303953174.sd.mp4?s=44c6628c9ddb0932b487538254ed624e483d9890&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+                    <div class="miniature">Your browser does not support the video tag.</div>
+                </video>                                 
+                <img class="miniature" src="https://images.pexels.com/photos/1659435/pexels-photo-1659435.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Picture">            
+                <img class="miniature" src="https://images.pexels.com/photos/1024973/pexels-photo-1024973.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Picture">            
+            </div>
             </div>                
         </div>
     
